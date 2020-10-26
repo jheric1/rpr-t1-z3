@@ -25,7 +25,7 @@ public class Sat {
         int GetSate()  { return sati; }
         int GetMinute()  { return minute; }
         int GetSekunde()  { return sekunde; }
-        void ispisi()  { System.out.printf("%d:%d:%d\n", GetSate(),GetMinute(),GetSekunde());}
+        void ispisi()  { System.out.printf("%d : %d : %d\n", GetSate(),GetMinute(),GetSekunde());}
 
 
     public static void main(String[] args) {
